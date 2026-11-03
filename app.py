@@ -5,7 +5,7 @@ st.write(
     "Welcome to the AI-enabled Web Application deployed using Streamlit Community Cloud."
 )
 
-name = st.text_input("Enter your name")
+name = st.text_input("Who is gay?")
 if st.button("Submit"):
     if name.strip():
         st.success(f"Hello, {name}! Your application is running successfully.")
